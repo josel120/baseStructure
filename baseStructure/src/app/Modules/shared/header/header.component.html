@@ -1,0 +1,17 @@
+<div class="header">
+    <div class="logo-container">
+        <h2>Header</h2>
+    </div>
+    <div class="profile-container" (click)="showProfileList=!showProfileList">
+        <p class="userName">Usuario Uno</p>
+        <span>imagen</span>
+    </div>
+    
+</div>
+<div class="profile-list-container" *ngIf="showProfileList">
+    <div> primer opcion</div>
+    <div> segunda opcion</div>
+    <div> tercera opcion</div>
+    <div> cuarta opcion</div>
+    <div> quinta opcion</div>
+</div>

@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    .logo-container{
+        cursor: pointer;    
+    }
+}
+.profile-container{
+    cursor: pointer;
+    display: flex;
+    .userName{
+        margin-right: 1rem;
+    }
+}
+.profile-list-container{
+    position: absolute;
+    right: 0px;
+    border: solid 1px gray;
+    padding: 1rem;
+    margin-right: 1rem;
+    box-shadow: -4px 4px teal;
+}
