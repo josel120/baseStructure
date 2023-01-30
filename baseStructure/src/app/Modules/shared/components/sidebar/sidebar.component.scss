@@ -1,0 +1,9 @@
+.sidebarPrincipal{
+    position: absolute;
+    height: 100%;
+    .sidebar-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
